@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", serif, sans-serif;
+  overflow-y: auto;
+  height: auto;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+  margin-bottom: 2px;
+  width: auto;
+  font-size: 1em;
+}
+
+.name {
+  width: 10em;
+  padding: 2px;
+  font-size: 1.2em;
+  margin-left: 2px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.about {
+  font-size: 1.2em;
+}
+
+.login-btn {
+  padding: 5px;
+  background-color: rgb(242, 73, 129);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.hero {
+  height: 200px;
+  padding: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+span {
+  color: cornflowerblue;
+  font-weight: bolder;
+}
+
+.input_Info {
+  padding: 2px;
+  margin-top: 2px;
+  margin-left: 2px;
+  margin-bottom: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+select{
+  margin-right: 150px;
+}
+input{
+  margin-right: 150px;
+}
+
+.input_Info button {
+  padding: 5px;
+  background-color: rgb(242, 73, 129);
+  color:white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 5em;
+}
+
+.expenses-list
+{
+  padding: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  width: auto;
+  height: auto;
+}
+
+.heading {
+  font-size: 1.2em;
+  margin-left: 2px;
+}
+
+table {
+  margin-left: 2px;
+  border-collapse: collapse;
+  height: auto;
+}
+
+th,
+td {
+  border: 1px solid;
+  padding: 5px;
+  text-align: center;
+  width: 100vw;
+  text-wrap: wrap;
+}
+
+tfoot td {
+  font-weight: bold;
+  width: auto;
+}
+
+.delete-btn {
+  padding: 5px;
+  background-color: rgb(198, 69, 69);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.review{
+  padding: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+h3{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.user-review{
+  padding: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1850px;
+}
+
+.text{
+  border: 2px solid rgb(147, 147, 249);
+  margin-left: 3px;
+  padding: 2px;
+  height: 130px;
+  width: 300px;
+  text-align: center;
+}
+
+footer {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px;
+  margin-top: 2px;
+  width: auto;
+  font-size: 1em;
+  margin-left: 2px;
+}
+
+.social i {
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
